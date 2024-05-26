@@ -55,7 +55,6 @@ public class ASM_MN : Singleton<ASM_MN>
 
     public string calculate_rank(int score)
     {
-        // sinh viên viết tiếp code ở đây
         return null;
     }
 
@@ -77,10 +76,7 @@ public class ASM_MN : Singleton<ASM_MN>
             {
                 regionName = "VN1";
             }
-            Players player1 = new Players(id, "Dat", 20 ,new Region(2, "VN2"));
-            listPlayer.Add(player1);
-            Players player2 = new Players(id, "Duy", 20, new Region(3, "JS"));
-            listPlayer.Add(player2);
+           
 
             Region playerRegion1 = new Region(idR, regionName);
             Players player3 = new Players(id, name, score, playerRegion1);
